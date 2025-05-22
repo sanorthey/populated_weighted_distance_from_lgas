@@ -5,9 +5,16 @@ Created by Stephen Northey, University of Technology Sydney
 ### How to install:
 
 Install python
+
 Install google-maps-python-services via 
+
 $ pip install -U googlemaps
+
 See here if additional instructions necessary - https://github.com/googlemaps/google-maps-services-python
+
+Alternatively, install via
+
+$ pip install -r path/to/requirements.txt
 
 ### How to use:
 Modify config.ini using a text editor:
