@@ -1,4 +1,4 @@
-# Tool for generating a population weighted road transport distance from Australian Local Government areas
+# Tool for generating a population weighted average road transport distance from Australian Local Government areas
 
 Created by Stephen Northey, University of Technology Sydney
 
