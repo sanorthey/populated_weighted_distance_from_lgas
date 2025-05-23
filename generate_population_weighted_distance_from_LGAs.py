@@ -42,7 +42,7 @@ def save_population_weighted_distance(lga_data, distance_results, output_filenam
     total_weighted_distance = 0
 
     with open(output_filename_lga, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ["State", "Name", "Population", "Latitude", "Longitude", "Distance", "Population x Distance"]
+        fieldnames = ["State", "LGA", "Name", "Population", "Latitude", "Longitude", "Distance", "Population x Distance"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -54,6 +54,7 @@ def save_population_weighted_distance(lga_data, distance_results, output_filenam
                 total_weighted_distance += population_x_distance
                 writer.writerow({
                     "State": lga_data[i]["State"],
+                    "LGA":  lga_data[i]["LGA"],
                     "Name": lga_data[i]["Name"],
                     "Population": lga_data[i]["Population"],
                     "Latitude": lga_data[i]["lat"],
@@ -64,6 +65,7 @@ def save_population_weighted_distance(lga_data, distance_results, output_filenam
             else:
                 writer.writerow({
                     "State": lga_data[i]["State"],
+                    "LGA":  lga_data[i]["LGA"],
                     "Name": lga_data[i]["Name"],
                     "Population": lga_data[i]["Population"],
                     "Latitude": lga_data[i]["lat"],
