@@ -25,7 +25,7 @@ Modify config.ini using a text editor:
 
 Run generated_population_weighted_distance_from_LGAs.py. This can be done via the command prompt.
 
-python.exe <generate_population_weighted_distance_from_LGAs.py>
+python.exe generate_population_weighted_distance_from_LGAs.py
 
 ### How it works
 Local Government Area (LGA) Estimated Residence Population (ERP) spatial data was sourced from the Australian Burea of Statistics (ABS).
