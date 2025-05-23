@@ -1,3 +1,5 @@
+#  Created by Stephen Northey, University of Technology Sydney
+
 import googlemaps
 import csv
 import configparser
