@@ -24,14 +24,14 @@ Modify config.ini using a text editor:
 
 Run generated_population_weighted_distance_from_LGAs.py. This can be done via the command prompt.
 
-python.exe <generated_population_weighted_distance_from_LGAs.py>
+python.exe <generate_population_weighted_distance_from_LGAs.py>
 
 ### How it works
 Local Government Area (LGA) Estimated Residence Population (ERP) spatial data was sourced from the Australian Burea of Statistics (ABS).
 
 The centroid of every LGA was computed using qGIS.
 
-This tool then estimates the distance from every LGA centroid to the destination location, using Google Maps API for driving routes.
+This tool then estimates the road transport distance from every LGA centroid to the destination location, using Google Maps API for driving routes.
 
 Weighted road transport distance = sum(distance * population for all LGAs)/total population
 
