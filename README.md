@@ -23,7 +23,7 @@ Modify config.ini using a text editor:
 - Set your destination coordinates (longitude and latitude in decimal format)
 - Set your state filter for origin LGAs. Acceptable values: Australia, New South Wales, Victoria, Tasmania, Queensland, South Australia, Western Australia, Other Territories, Northern Territory, Australian Capital Territory
 
-Run generated_population_weighted_distance_from_LGAs.py. This can be done via the command prompt.
+Run generate_population_weighted_distance_from_LGAs.py. This can be done via the command prompt.
 
 python.exe generate_population_weighted_distance_from_LGAs.py
 
