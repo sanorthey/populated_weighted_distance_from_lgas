@@ -27,6 +27,8 @@ Run generate_population_weighted_distance_from_LGAs.py. This can be done via the
 
 python.exe generate_population_weighted_distance_from_LGAs.py
 
+Two output files will be generated. One containing the population and distance to the destination coordinate for each LGA. Another with just the overall population weighted average road distance.
+
 ### How it works
 Local Government Area (LGA) Estimated Residence Population (ERP) spatial data was sourced from the Australian Burea of Statistics (ABS).
 
